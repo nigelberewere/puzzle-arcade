@@ -5,6 +5,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'firebase_options.dart';
 import 'models.dart';
+import 'models/game_model.dart';
 import 'dart:math';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'dart:async';
@@ -109,21 +110,7 @@ void main() {
   });
 }
 
-class Game {
-  final String name;
-  final IconData icon;
-  final List<dynamic> difficulties;
-  final Widget Function(dynamic) screenBuilder;
-  final Widget Function(int) dailyScreenBuilder;
-
-  Game({
-    required this.name,
-    required this.icon,
-    required this.difficulties,
-    required this.screenBuilder,
-    required this.dailyScreenBuilder,
-  });
-}
+// `Game` model is defined in `models/game_model.dart` to avoid duplicate type definitions.
 
 class PuzzleApp extends StatelessWidget {
   const PuzzleApp({super.key});

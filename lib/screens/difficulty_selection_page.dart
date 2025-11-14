@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import '../providers/game_provider.dart';
-import '/main.dart'; // To get the Game class
+import '../models/game_model.dart'; // Game model
 import 'dart:math';
 
 class DifficultySelectionPage extends StatefulWidget {

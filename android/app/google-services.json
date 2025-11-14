@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639746697887",
+    "project_id": "durable-pulsar-473610-g6",
+    "storage_bucket": "durable-pulsar-473610-g6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639746697887:android:2fbac6f7054765a8f2d0aa",
+        "android_client_info": {
+          "package_name": "com.jeopardyapps.puzzlesarcade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnf8MkVB2QWygNbCnShVCSQfpF-_9RRJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
